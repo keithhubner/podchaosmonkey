@@ -1,6 +1,6 @@
 # Testing podchaosmonkey 🐵
 
-## Introduction 👋
+### Introduction 👋
 
 The purpose of this project is to spin up a Kubernetes cluster and test [podchaosmonkey](https://github.com/perithompson/podchaosmonkey).
 
@@ -16,7 +16,7 @@ The purpose of this project is to spin up a Kubernetes cluster and test [podchao
 
 * gcc
 
-## Deploying the cluster 🚗
+### Deploying the cluster 🚗
 
 I will be deploying a managed Kubernetes cluster on Civo via the Civo CLI, for more information on how to setup an account and get started on Civo please see [this link](https://www.civo.com/docs/quick-start). 
 
@@ -42,7 +42,7 @@ Check we have access:
 kubectl get pods -A
 ```
 
-## Deployment 🚦
+### Deployment 🚦
 
 Next we can clone the repo
 
