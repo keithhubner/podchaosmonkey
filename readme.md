@@ -13,8 +13,7 @@ The purpose of this project is to spin up a Kubernetes cluster and test [podchao
 * [docker](https://docs.docker.com/engine/install/)
 * [go](https://go.dev/doc/install)
 * [image repo e.g. dockerhub](https://hub.docker.com/)
-
-* gcc
+* [gcc](https://gcc.gnu.org/install/)
 
 ### Deploying the cluster 🚗
 
