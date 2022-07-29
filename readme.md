@@ -1,5 +1,7 @@
 # Testing podchaosmonkey 🐵
 
+> At time of writing this guide does not work properly on M1/M2 ARM macs.
+
 ### Introduction 👋
 
 The purpose of this project is to spin up a Kubernetes cluster and test [podchaosmonkey](https://github.com/perithompson/podchaosmonkey).
@@ -27,13 +29,13 @@ civo kubernetes size
 Then we can choose a suitable node size:
 
 ```
-civo kubernetes create chaos_test -s g4s.kube.small --save --merge
+civo kubernetes create chaos_test -s g4s.kube.small --save --merge --wait
 ```
 
-Check the new cluster is our default:
+Make the new cluster is our default context:
 
 ```
-kubectx 
+kubectx chaos_test
 ```
 
 Check we have access:
